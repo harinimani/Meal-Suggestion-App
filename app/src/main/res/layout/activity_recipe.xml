@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipeActivity"
+    android:background="@color/background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/mealImageScreen"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/ImageView.Corner"
+            app:srcCompat="@drawable/salad3" />
+
+        <TextView
+            android:id="@+id/mealNametitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Vegetable Salad"
+            android:textColor="@color/greenText_03"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/mealCaloriesInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/open_sans_condensed_light"
+            android:text="220 kcal"
+            android:textColor="@color/greenText_03"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/poppins_bold"
+            android:lineSpacingExtra="4sp"
+            android:text="Ingredients"
+            android:textColor="@color/greyText_02"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/mealIngredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/poppins"
+            android:lineSpacingExtra="4sp"
+            android:text=""
+            android:textColor="@color/greyText_02"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:fontFamily="@font/poppins_bold"
+            android:lineSpacingExtra="4sp"
+            android:text="Instructions"
+            android:textColor="@color/greyText_02"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/mealInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/poppins"
+            android:lineSpacingExtra="4sp"
+            android:text="4Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+            android:textColor="@color/greyText_02"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/webButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="10dp"
+            android:text="View Recipe Video" />
+
+        <Button
+            android:id="@+id/receipeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:text="Done" />
+
+    </LinearLayout>
+
+</ScrollView>
