@@ -4,7 +4,7 @@ This application is a “Recipe Finder” application. The app was developed to 
 # Background and Motivation
 <br />The COVID-19 pandemic has impacted the entire population in various sectors, but mainly the Health and Wellbeing sector. According to a study carried out, with 7,753 participants from four different countries, it was observed that 36% reported maintaining unhealthy dietary habits, 44% reported increase in snacking and 27% reported in weight gain during the pandemic [[1]](https://doi.org/10.1016/j.dsx.2022.102392). As we transition out of the pandemic and with the rising health concerns, it is recommended to promote health-based applications into our market. With an effective health application, we can help individuals avoid unhealthy lifestyles and prevent multiple chronic illnesses. This project aims to fill this gap in the market by developing a ‘Healthy Recipe’ mobile-based android application in hopes to decrease the ratio of unhealthy individuals in society.  
 <br />By utilizing this application, users would be introduced healthier eating alternatives and thus 
-reducing the overall obesity rate in Malaysia. Furthermore, with the pandemic’s disastrous 
+reducing the overall obesity rate. Furthermore, with the pandemic’s disastrous 
 impact on the economic sector and the rise in cost of living, cooking would be a cost-effective 
 alternative to eating outside. Therefore, reducing the users’ financial burdens and stress levels 
 and improving their overall mental and physical wellbeing.  
