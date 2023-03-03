@@ -16,6 +16,9 @@ An apk file is added. Download the apk file to install and run app.
 
  > app-debug.apk
   
+# UI Screenshots
+![mealSuggestion1](https://user-images.githubusercontent.com/50517221/222619786-b8990966-3e46-4739-b62d-017f85c1ce06.JPG)
+
 
 ## References
 <a id="1">[1]</a> 
