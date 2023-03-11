@@ -12,7 +12,8 @@ and improving their overall mental and physical wellbeing.
 
 **Pre-requisite :** minSDK 21
 
-An apk file is added. Download the apk file to install and run app.
+# Installation
+Download the apk file from Releases to install and run the app.
 
  > app-debug.apk
   
